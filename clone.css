@@ -1,0 +1,140 @@
+p{
+    font-family: Roboto, Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(209, 204, 204);
+    padding-bottom: 30px;
+}
+@media (max-width: 1130px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 890px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media(max-width:510px){
+    .video-grid{
+        grid-template-columns: 1fr;
+    }
+}
+
+.image-preview{
+    position: relative;
+}
+.timestamp{
+    position: absolute;
+    background-color: black;
+    color: white;
+    font-family: Roboto, arial;
+    font-size: 12px;
+    bottom: 16px;
+    right: 5px;
+    border-radius: 3px;
+    padding: 2px 5px 2px 5px;
+}
+
+.thumbnail{
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 8px;
+}
+
+.video-info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;            
+}
+
+.dp{
+    width: 100%;
+    border-radius: 50px;
+}
+
+.video-title{
+    font-size: 14px ;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+.video-title{
+    font-weight: bold;
+}
+.video-owner,
+.video-views{
+    display: block;
+    font-size: 12px;
+    color: rgb(96, 96, 96);
+}
+.video-owner{
+    margin-bottom: 4px;
+}
+
+
+.reels-text{
+    margin-top: 10px;
+    width: 145px;
+}
+.shorts-icon{
+display: inline-block;
+width: 15px;
+height: 25px;
+margin-right: 10px;
+}
+.shorts-div{
+display: flex;
+flex-direction: row;
+margin-left: 15px;
+margin-bottom: 20px;
+margin-top: 20px;
+}
+.Shorts{
+font-size: 20px;
+}
+.reels-views{
+    margin-top: 5px;
+    color: grey;
+}
+.reels-image{
+    width: 100%;
+    height: 280px;
+    border-radius: 15px;
+}
+.reels-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(209, 204, 204);
+    padding-bottom: 30px;
+}
+
+@media (max-width:500px){
+    .reels-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width:0) and (max-width:499px){
+    .reels-grid{
+        grid-template-columns: 1fr 1fr 1fr ;
+    }
+}
+@media (min-width:1000px){
+    .reels-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}

@@ -1,0 +1,220 @@
+.body{
+    padding-top: 130px;
+    padding-left: 255px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 55px;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    background-color: white;
+    top:0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    padding-bottom: 10px;
+    z-index: 100;
+}
+.left-div{
+    width: 200px;
+    margin-bottom: 8px;
+    margin-top: 10px;
+}
+.lines-button{
+    border: none;
+    margin-left: 12px;   
+}
+.lines-button:hover{
+    background-color: grey;
+    cursor: pointer;
+    border-radius: 100%;
+}
+.lines{
+    width: 22px;
+    height: 22px;
+}
+.yt{
+    margin-left: 15px;
+    width:95px;
+    height: 22px;
+}
+.center-div{
+    flex: 2;
+    margin-left: 70px;
+    margin-right: 55px;
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search{
+    flex: 1;
+    height: 35px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 50px 0 0 50px ;
+    padding-left: 15px;
+    font-size: 15px;
+    box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.05);
+    width: 0;
+}
+.magni-button .tooltip,
+.mic-button .tooltip,
+.bell-button .tooltip,
+.video-cam-button .tooltip{
+    position: absolute;
+    background-color: grey;
+    color: white;
+    font-family: Roboto, arial;
+    font-size: 12px;
+    border-radius: 3px;
+    padding: 8px 8px 8px 8px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+}
+.magni-button:hover .tooltip,
+.mic-button:hover .tooltip,
+.bell-button:hover .tooltip,
+.video-cam-button:hover .tooltip{
+    opacity: 1;
+}
+.search::placeholder{
+    font-family: Roboto, Arial;
+    font-size: 15px;
+}
+.magni-button{
+    width: 65px;
+    height: 39px;
+    border: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 0 50px 50px 0;
+    position: relative;
+}
+.magni{
+    width: 20px;
+    height:20px;
+}
+.mic-button{
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 50px;
+    margin-left: 5px;
+    position: relative;
+}
+.mic-button:hover{
+    background-color: grey;
+    cursor: pointer;
+    
+}
+.mic{
+    width: 25px;
+    height: 25px;
+}
+.right-div{
+  width: 170px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  flex-shrink: 0;
+  margin-top: 10px;
+}
+.video-cam-button{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    position: relative;
+}
+.video-cam-button:hover{
+    background-color: grey;
+}
+.video-cam{
+    width: 28px;
+    height:20px;
+}
+.bell-button{
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    border: none;
+    position: relative;
+}
+.noti{
+    position: relative;
+}
+.noti-number{
+    position: absolute;
+    background-color: rgb(213, 32, 32);
+    color: white;
+    font-family: Roboto, arial;
+    font-size: 12px;
+    padding: 1px 5px 1px 5px;
+    border-radius: 50px;
+    top: -5px;
+    right: -10px;
+}
+.bell-button:hover{
+    background-color: grey;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.bell{
+    width: 23px;
+    height: 20px;
+    
+}
+.login-button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-right: 20px;
+    border:none;
+}
+.login-icon{
+    width: 32px;
+    height: 32px;
+    border-radius: 50px;
+    margin-right: 16px;
+}
+
+.header2{
+    background-color: white;
+    position: fixed;
+    top: 70px;
+    padding-bottom :10px; 
+    z-index: 100;
+}
+.header-button{
+    font-family: Roboto, arial;
+    font-size: 14px;
+    border:none;
+    border-radius: 10px;
+    padding: 8px 12px 8px 12px;
+    margin-left: 10px;
+}
+.header-button:hover{
+    cursor: pointer;
+    background-color: grey;
+}
+.header-button-arrow{
+    border: none;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 50px;
+    width: 35px ;
+    height: 35px;
+    margin-left: 15px;
+}
+.header-button-arrow:hover{
+    background-color: grey;
+    cursor: pointer;
+}

@@ -1,0 +1,49 @@
+.sidebar{
+    position:fixed;
+    top: 60px;;
+    left:0;
+    bottom: 0;
+    width: 235px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.div-side{
+    display: flex;
+    flex-direction: row;
+}
+.side1{
+    font-family: Roboto, arial;
+    font-size: 14px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+}
+.side1:hover{
+    cursor: pointer;
+    background-color: rgb(212, 211, 211);
+}
+.img-home{
+    width: 20px;
+    height: 20px;
+    margin-right: 40px;
+    margin-left: 10px;
+}
+.line{
+    margin-left: 10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-right: 10px;
+    border-bottom-width: 2px;
+    border-bottom-color: rgb(208, 202, 202);
+    border-bottom-style: solid;
+}
+.sub-main{
+    font-family: Roboto, arial;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom :10px;
+}
